@@ -1,0 +1,14 @@
+﻿################################################################################
+# Данный GITIGNORE-файл был автоматически создан Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/TestBackendDocker/.vs
+/TestBackendDocker/obj
+/TestBackendDocker/TestBackendDocker/obj/Container
+/TestBackendDocker/TestBackendDocker/obj
+/my-react-docker-app/.idea
+/my-react-docker-app/dist
+/my-react-docker-app/dist/assets/index-CBCP-Kt_.js
+/my-react-docker-app/node_modules
+/my-react-docker-app/node_modules/.bin/acorn

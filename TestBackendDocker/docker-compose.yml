@@ -1,0 +1,15 @@
+services:
+  backend:
+    image: ${DOCKER_REGISTRY-}testbackenddocker
+    build:
+      context: .
+      dockerfile: TestBackendDocker/Dockerfile
+
+  client:
+    image: client
+    build:
+      context: ../my-react-docker-app
+      dockerfile: Dockerfile
+
+  proxy:
+    image: nginx:mainline
